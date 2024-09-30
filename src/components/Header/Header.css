@@ -1,0 +1,119 @@
+.main-div-header{
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    background-color: #fff;
+}
+.header{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.list-div-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logo{
+    width: 85px;
+    height: 65px;
+    margin-right: 0px;
+}
+.icon{
+    width: 18px;
+}
+.icon-1{
+    width: 12px;
+}
+.list-div-btn button{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 13.5px;
+    font-weight: 800;
+    font-style: bold;
+    margin: 7px;
+}
+.list-div-btn button:hover{
+    color: rgb(85, 98, 32);
+    border-bottom:2px solid rgb(85, 98, 32);
+}
+.btn-icon{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin: 5px;
+}
+.icon-btn{
+    margin-left: 100px;
+}
+
+
+@media(max-width:480px){
+    .main-div-header{
+        width: 100%;
+        height: 50px;
+    }
+    .list-div-btn{
+        display: none;
+    }
+    .btn-icon{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+}
+.main-div-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-header-2{
+    display: flex;
+    align-items: center;
+    
+}
+.logo2{
+    width: 45px;
+    height: 45px;
+    margin: 170px;
+}
+.btn-icon-2{
+    width: 15px;
+}
+.button-icon{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+@media(max-width:768px){
+    .header{
+        display: none;
+    }
+    .main-div-header{
+        width: 100%;
+        height: 60px;
+    }
+    .logo2{
+        width: 55px;
+        height: 55px;
+        margin: 300px;
+    }
+    .btn-icon-2{
+        width: 18px;
+    }
+}
+@media(min-width:769px) and (max-width:1199px){
+    .div-header-2{
+        display: none;
+    }
+}
+@media(min-width:1200px){
+    .div-header-2{
+        display: none;
+    }
+}
